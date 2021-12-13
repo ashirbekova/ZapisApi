@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZapisApi", "ZapisApi\ZapisApi.csproj", "{CAA98072-5105-40D9-9E05-39FE7AFC77EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{F7CBA4C5-67D5-4815-8409-2255A7705A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA98072-5105-40D9-9E05-39FE7AFC77EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA98072-5105-40D9-9E05-39FE7AFC77EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA98072-5105-40D9-9E05-39FE7AFC77EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA98072-5105-40D9-9E05-39FE7AFC77EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CBA4C5-67D5-4815-8409-2255A7705A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CBA4C5-67D5-4815-8409-2255A7705A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CBA4C5-67D5-4815-8409-2255A7705A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CBA4C5-67D5-4815-8409-2255A7705A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F0434AC-0D10-4427-907F-4D9402DF6EEC}
+	EndGlobalSection
+EndGlobal
