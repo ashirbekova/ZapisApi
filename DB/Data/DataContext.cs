@@ -9,6 +9,12 @@ namespace DB.Data
         public DataContext(DbContextOptions<DataContext> options) 
             : base(options)
         {
+            Database.EnsureCreated();
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -18,9 +24,9 @@ namespace DB.Data
 
         #region Entities
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Subcategory> Subcategories { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<City> Cities { get; set; }
-        public DbSet<Subcategory> Subcategories { get; set; }
         #endregion
     }
 }
